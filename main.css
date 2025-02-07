@@ -1,0 +1,191 @@
+/* Defines, prerequisites, such as fonts */
+@font-face {
+    font-family: 'spaceGrotesk';
+    src: url(./media/fonts/space/SpaceGrotesk-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'firaSans';
+    src: url(./media/fonts/fira/FiraSans-Regular.ttf);
+}
+
+body {
+    background-color: #04000b;
+    color: #fff !important;
+    font-family: 'spaceGrotesk', sans-serif;
+    padding: 0;
+    margin: 0;
+
+}
+
+header {
+    background-color: #16161d;
+    box-sizing: border-box;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    position:relative;
+    display: flex;
+    height: 7vw;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+    font-size: 3.5rem;
+    /* position: fixed; */
+    top: 0;
+    font-family: 'firaSans', sans-serif;
+}
+
+.gmap {
+    border-radius: 3%;
+}
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #16161d;
+    position: relative;
+    right: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul.navbar li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+@keyframes hoverColor {
+    from {
+      color: #fff;
+    }
+    to {
+      color: #0145cc;
+      scale: 120%;
+    }
+  }
+
+ul.navbar li a:hover {
+    animation-duration: 300ms;
+    animation-name: hoverColor;
+    animation-fill-mode: both;
+    cursor: pointer;
+}
+
+ul.navbar li {
+    white-space: nowrap;
+    margin: 2vw;
+    margin-top: 1.5vw;
+}
+
+h1.title {
+    font-size: 1.5rem;
+}
+
+div.cardCollection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: inline-grid;
+    flex-wrap: wrap;
+}
+
+div.cardCollection div.card {
+    width: 10rem;
+    height: 10rem;
+    background-color: #16161d;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    font-size: 3rem;
+    width: fit-content;
+    min-width: 20vw;
+    height: 10vw;
+    padding: 1rem;
+    margin: 1rem;
+    grid-row: 1;
+
+}
+
+div.cardCollection div.card:hover {
+    animation-duration: 300ms;
+    animation-name: cardHover;
+    animation-fill-mode: both;
+    cursor: pointer;
+}
+
+
+ hr {
+    width: 97.5%;
+    height: 0.1vw;
+    background-color: #16161d;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+    margin: 0;
+    margin-top: 1vw;
+    margin-bottom: .5vw;
+    margin-left: 1.25%;
+    border: none;
+}
+
+@keyframes  cardHover {
+    from {
+      background-color: #16161d;
+    }
+    to {
+      background-color: #0145cc;
+      scale: 120%;
+    }
+}
+
+.about-title {
+    text-align: center;
+}
+
+.name-title {
+    font-size: xx-large;
+    margin-left: 2%;
+}
+
+#au {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+img {
+    border-radius: 5%;
+}
+
+h1 a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.container {
+    position: relative;
+    width: 100%; /* adjust to your desired width */
+    height: 100%; /* adjust to your desired height */
+  }
+  
+  .background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* cut to fit */
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px; /* adjust to your desired font size */
+    color: #FFFFFF; /* white text */
+    text-align: center;
+  }
