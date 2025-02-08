@@ -7,7 +7,6 @@ Anyways, here's how to open and run it.
 
 You don't need any package managers like `npm` or `pnpm` since this entire codebase is just HTML and CSS (I'm also not using any JavaScript) to make this easier to code and debug, and less bloated.
 
-![Image preview of the site.](https://github.com/user-attachments/assets/c6f4b16f-bad3-4766-94ce-ac2dec896d0c)
 
 ## How to install/run this:
 
