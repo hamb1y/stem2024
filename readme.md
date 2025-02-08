@@ -7,7 +7,7 @@ Anyways, here's how to open and run it.
 
 You don't need any package managers like `npm` or `pnpm` since this entire codebase is just HTML and CSS (I'm also not using any JavaScript) to make this easier to code and debug, and less bloated.
 
-![Image preview of the site](https://imgur.com/a/Oi54aYH)
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/Oi54aYH" data-context="false" ><a href="//imgur.com/a/Oi54aYH"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 ## How to install/run this:
 
